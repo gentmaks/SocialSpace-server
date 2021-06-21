@@ -2,7 +2,7 @@ const {ApolloServer, PubSub} = require('apollo-server');
 const gql = require('graphql-tag');
 const mongoose = require('mongoose');
 require('dotenv').config();
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 const Post = require('./models/Post');
 const User = require('./models/User');
